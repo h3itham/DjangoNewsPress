@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts', 
     'pages', 
-    'bootstrap5', 
+    'bootstrap5',
+    'articles'
+    # 3rd Party
+    'crispy_forms', # new
 ]
 
 MIDDLEWARE = [
@@ -128,3 +131,6 @@ AUTH_USER_MODEL =  'accounts.CustomUser'
 
 LOGIN_REDIRECT_URL = 'home'
 LOGUOUT_REDIRECT_URL = 'home'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+TIME_ZONE = 'America/New_York' 
