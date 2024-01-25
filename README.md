@@ -60,11 +60,4 @@ Django NewsPress is a web application built with Django framework that allows us
 - Authenticated users can create, edit, and delete their own articles.
 - Update your profile information by clicking on your username in the navigation bar.
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
